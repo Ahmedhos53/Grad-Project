@@ -1,0 +1,25 @@
+flowchart TB
+    V[Live webcam] --> VP[Visual pipeline<br/>MediaPipe, YOLOv8, Haar fallback]
+    A[Live microphone] --> AP[Audio pipeline<br/>YAMNet, loudness, Faster-Whisper,<br/>bilingual safety rules]
+    T[Public recorded telemetry trip] --> TP[Telemetry replay<br/>frozen PRIMUS encoder + linear head]
+
+    VP --> S[Shared evidence state]
+    AP --> S
+    TP --> S
+
+    S --> R[Transparent rules and<br/>bounded risk calculation]
+    R --> D[OpenCV dashboard<br/>audio left, camera centre, risk right]
+    R --> L[Structured event log]
+    R --> SS[Optional screenshots]
+
+    AP -. raw audio not saved by default .-> P[Opt-in transcript store only]
+    TP -. predictions and timing only .-> L
+
+    classDef input fill:#E9F2FF,stroke:#2F80ED,color:#172B4D;
+    classDef model fill:#EDF9F0,stroke:#27AE60,color:#173B2C;
+    classDef fusion fill:#FFF4D9,stroke:#F2994A,color:#5E3A00;
+    classDef output fill:#F5EEFF,stroke:#9B51E0,color:#3E1E5C;
+    class V,A,T input;
+    class VP,AP,TP model;
+    class S,R fusion;
+    class D,L,SS,P output;

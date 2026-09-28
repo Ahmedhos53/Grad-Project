@@ -1,0 +1,2598 @@
+{
+  "status": "synthetic_fusion_sensitivity_only",
+  "components": [
+    "eye_closed",
+    "zone",
+    "phone_object",
+    "phone_call",
+    "drinking",
+    "raised_voice",
+    "speech_phone",
+    "safety",
+    "telemetry"
+  ],
+  "current_fast_demo_confirm_frames": 1,
+  "single_component_sensitivity": [
+    {
+      "component": "eye_closed",
+      "current_score": 30,
+      "current_risk_level": "MODERATE RISK",
+      "current_contribution": 30,
+      "equal_count_reference_score": 11
+    },
+    {
+      "component": "zone",
+      "current_score": 20,
+      "current_risk_level": "LOW RISK",
+      "current_contribution": 20,
+      "equal_count_reference_score": 11
+    },
+    {
+      "component": "phone_object",
+      "current_score": 8,
+      "current_risk_level": "LOW RISK",
+      "current_contribution": 8,
+      "equal_count_reference_score": 11
+    },
+    {
+      "component": "phone_call",
+      "current_score": 40,
+      "current_risk_level": "MODERATE RISK",
+      "current_contribution": 40,
+      "equal_count_reference_score": 11
+    },
+    {
+      "component": "drinking",
+      "current_score": 25,
+      "current_risk_level": "LOW RISK",
+      "current_contribution": 25,
+      "equal_count_reference_score": 11
+    },
+    {
+      "component": "raised_voice",
+      "current_score": 6,
+      "current_risk_level": "LOW RISK",
+      "current_contribution": 6,
+      "equal_count_reference_score": 11
+    },
+    {
+      "component": "speech_phone",
+      "current_score": 0,
+      "current_risk_level": "NORMAL",
+      "current_contribution": 0,
+      "equal_count_reference_score": 11
+    },
+    {
+      "component": "safety",
+      "current_score": 6,
+      "current_risk_level": "LOW RISK",
+      "current_contribution": 6,
+      "equal_count_reference_score": 11
+    },
+    {
+      "component": "telemetry",
+      "current_score": 18,
+      "current_risk_level": "LOW RISK",
+      "current_contribution": 18,
+      "equal_count_reference_score": 11
+    }
+  ],
+  "combination_sensitivity": [
+    {
+      "active_components": [],
+      "current_score": 0,
+      "current_risk_level": "NORMAL",
+      "equal_count_reference_score": 0,
+      "independent_or_alert": false
+    },
+    {
+      "active_components": [
+        "eye_closed"
+      ],
+      "current_score": 30,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 11,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone"
+      ],
+      "current_score": 20,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 11,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object"
+      ],
+      "current_score": 8,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 11,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_call"
+      ],
+      "current_score": 40,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 11,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "drinking"
+      ],
+      "current_score": 25,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 11,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "raised_voice"
+      ],
+      "current_score": 6,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 11,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "speech_phone"
+      ],
+      "current_score": 0,
+      "current_risk_level": "NORMAL",
+      "equal_count_reference_score": 11,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "safety"
+      ],
+      "current_score": 6,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 11,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "telemetry"
+      ],
+      "current_score": 18,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 11,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "zone"
+      ],
+      "current_score": 50,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "phone_object"
+      ],
+      "current_score": 38,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "phone_call"
+      ],
+      "current_score": 70,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "drinking"
+      ],
+      "current_score": 55,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "raised_voice"
+      ],
+      "current_score": 36,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "speech_phone"
+      ],
+      "current_score": 30,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "safety"
+      ],
+      "current_score": 36,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "telemetry"
+      ],
+      "current_score": 48,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "phone_object"
+      ],
+      "current_score": 28,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "phone_call"
+      ],
+      "current_score": 60,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "drinking"
+      ],
+      "current_score": 45,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "raised_voice"
+      ],
+      "current_score": 26,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "speech_phone"
+      ],
+      "current_score": 20,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "safety"
+      ],
+      "current_score": 26,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "telemetry"
+      ],
+      "current_score": 38,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "phone_call"
+      ],
+      "current_score": 48,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "drinking"
+      ],
+      "current_score": 33,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "raised_voice"
+      ],
+      "current_score": 14,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "speech_phone"
+      ],
+      "current_score": 8,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "safety"
+      ],
+      "current_score": 14,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "telemetry"
+      ],
+      "current_score": 26,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_call",
+        "drinking"
+      ],
+      "current_score": 65,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_call",
+        "raised_voice"
+      ],
+      "current_score": 46,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_call",
+        "speech_phone"
+      ],
+      "current_score": 46,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_call",
+        "safety"
+      ],
+      "current_score": 46,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_call",
+        "telemetry"
+      ],
+      "current_score": 58,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "drinking",
+        "raised_voice"
+      ],
+      "current_score": 31,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "drinking",
+        "speech_phone"
+      ],
+      "current_score": 25,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "drinking",
+        "safety"
+      ],
+      "current_score": 31,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "drinking",
+        "telemetry"
+      ],
+      "current_score": 43,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "raised_voice",
+        "speech_phone"
+      ],
+      "current_score": 6,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "raised_voice",
+        "safety"
+      ],
+      "current_score": 12,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "raised_voice",
+        "telemetry"
+      ],
+      "current_score": 24,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "speech_phone",
+        "safety"
+      ],
+      "current_score": 6,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "speech_phone",
+        "telemetry"
+      ],
+      "current_score": 18,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "safety",
+        "telemetry"
+      ],
+      "current_score": 24,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 22,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "zone",
+        "phone_object"
+      ],
+      "current_score": 58,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "zone",
+        "phone_call"
+      ],
+      "current_score": 90,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "zone",
+        "drinking"
+      ],
+      "current_score": 75,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "zone",
+        "raised_voice"
+      ],
+      "current_score": 56,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "zone",
+        "speech_phone"
+      ],
+      "current_score": 50,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "zone",
+        "safety"
+      ],
+      "current_score": 56,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "zone",
+        "telemetry"
+      ],
+      "current_score": 68,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "phone_object",
+        "phone_call"
+      ],
+      "current_score": 78,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "phone_object",
+        "drinking"
+      ],
+      "current_score": 63,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "phone_object",
+        "raised_voice"
+      ],
+      "current_score": 44,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "phone_object",
+        "speech_phone"
+      ],
+      "current_score": 38,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "phone_object",
+        "safety"
+      ],
+      "current_score": 44,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "phone_object",
+        "telemetry"
+      ],
+      "current_score": 56,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "phone_call",
+        "drinking"
+      ],
+      "current_score": 95,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "phone_call",
+        "raised_voice"
+      ],
+      "current_score": 76,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "phone_call",
+        "speech_phone"
+      ],
+      "current_score": 76,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "phone_call",
+        "safety"
+      ],
+      "current_score": 76,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "phone_call",
+        "telemetry"
+      ],
+      "current_score": 88,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "drinking",
+        "raised_voice"
+      ],
+      "current_score": 61,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "drinking",
+        "speech_phone"
+      ],
+      "current_score": 55,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "drinking",
+        "safety"
+      ],
+      "current_score": 61,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "drinking",
+        "telemetry"
+      ],
+      "current_score": 73,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "raised_voice",
+        "speech_phone"
+      ],
+      "current_score": 36,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "raised_voice",
+        "safety"
+      ],
+      "current_score": 42,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "raised_voice",
+        "telemetry"
+      ],
+      "current_score": 54,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "speech_phone",
+        "safety"
+      ],
+      "current_score": 36,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "speech_phone",
+        "telemetry"
+      ],
+      "current_score": 48,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "eye_closed",
+        "safety",
+        "telemetry"
+      ],
+      "current_score": 54,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "phone_object",
+        "phone_call"
+      ],
+      "current_score": 68,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "phone_object",
+        "drinking"
+      ],
+      "current_score": 53,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "phone_object",
+        "raised_voice"
+      ],
+      "current_score": 34,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "phone_object",
+        "speech_phone"
+      ],
+      "current_score": 28,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "phone_object",
+        "safety"
+      ],
+      "current_score": 34,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "phone_object",
+        "telemetry"
+      ],
+      "current_score": 46,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "phone_call",
+        "drinking"
+      ],
+      "current_score": 85,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "phone_call",
+        "raised_voice"
+      ],
+      "current_score": 66,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "phone_call",
+        "speech_phone"
+      ],
+      "current_score": 66,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "phone_call",
+        "safety"
+      ],
+      "current_score": 66,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "phone_call",
+        "telemetry"
+      ],
+      "current_score": 78,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "drinking",
+        "raised_voice"
+      ],
+      "current_score": 51,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "drinking",
+        "speech_phone"
+      ],
+      "current_score": 45,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "drinking",
+        "safety"
+      ],
+      "current_score": 51,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "drinking",
+        "telemetry"
+      ],
+      "current_score": 63,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "raised_voice",
+        "speech_phone"
+      ],
+      "current_score": 26,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "raised_voice",
+        "safety"
+      ],
+      "current_score": 32,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "raised_voice",
+        "telemetry"
+      ],
+      "current_score": 44,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "speech_phone",
+        "safety"
+      ],
+      "current_score": 26,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "speech_phone",
+        "telemetry"
+      ],
+      "current_score": 38,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "zone",
+        "safety",
+        "telemetry"
+      ],
+      "current_score": 44,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "phone_call",
+        "drinking"
+      ],
+      "current_score": 73,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "phone_call",
+        "raised_voice"
+      ],
+      "current_score": 54,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "phone_call",
+        "speech_phone"
+      ],
+      "current_score": 54,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "phone_call",
+        "safety"
+      ],
+      "current_score": 54,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "phone_call",
+        "telemetry"
+      ],
+      "current_score": 66,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "drinking",
+        "raised_voice"
+      ],
+      "current_score": 39,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "drinking",
+        "speech_phone"
+      ],
+      "current_score": 33,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "drinking",
+        "safety"
+      ],
+      "current_score": 39,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "drinking",
+        "telemetry"
+      ],
+      "current_score": 51,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "raised_voice",
+        "speech_phone"
+      ],
+      "current_score": 14,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "raised_voice",
+        "safety"
+      ],
+      "current_score": 20,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "raised_voice",
+        "telemetry"
+      ],
+      "current_score": 32,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "speech_phone",
+        "safety"
+      ],
+      "current_score": 14,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "speech_phone",
+        "telemetry"
+      ],
+      "current_score": 26,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_object",
+        "safety",
+        "telemetry"
+      ],
+      "current_score": 32,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_call",
+        "drinking",
+        "raised_voice"
+      ],
+      "current_score": 71,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_call",
+        "drinking",
+        "speech_phone"
+      ],
+      "current_score": 71,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_call",
+        "drinking",
+        "safety"
+      ],
+      "current_score": 71,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_call",
+        "drinking",
+        "telemetry"
+      ],
+      "current_score": 83,
+      "current_risk_level": "HIGH RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_call",
+        "raised_voice",
+        "speech_phone"
+      ],
+      "current_score": 52,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_call",
+        "raised_voice",
+        "safety"
+      ],
+      "current_score": 52,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_call",
+        "raised_voice",
+        "telemetry"
+      ],
+      "current_score": 64,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_call",
+        "speech_phone",
+        "safety"
+      ],
+      "current_score": 52,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_call",
+        "speech_phone",
+        "telemetry"
+      ],
+      "current_score": 64,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "phone_call",
+        "safety",
+        "telemetry"
+      ],
+      "current_score": 64,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "drinking",
+        "raised_voice",
+        "speech_phone"
+      ],
+      "current_score": 31,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "drinking",
+        "raised_voice",
+        "safety"
+      ],
+      "current_score": 37,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "drinking",
+        "raised_voice",
+        "telemetry"
+      ],
+      "current_score": 49,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "drinking",
+        "speech_phone",
+        "safety"
+      ],
+      "current_score": 31,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "drinking",
+        "speech_phone",
+        "telemetry"
+      ],
+      "current_score": 43,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "drinking",
+        "safety",
+        "telemetry"
+      ],
+      "current_score": 49,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "raised_voice",
+        "speech_phone",
+        "safety"
+      ],
+      "current_score": 12,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "raised_voice",
+        "speech_phone",
+        "telemetry"
+      ],
+      "current_score": 24,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "raised_voice",
+        "safety",
+        "telemetry"
+      ],
+      "current_score": 30,
+      "current_risk_level": "MODERATE RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    },
+    {
+      "active_components": [
+        "speech_phone",
+        "safety",
+        "telemetry"
+      ],
+      "current_score": 24,
+      "current_risk_level": "LOW RISK",
+      "equal_count_reference_score": 33,
+      "independent_or_alert": true
+    }
+  ],
+  "baseline_comparison": {
+    "scenario_count": 130,
+    "independent_or_any_signal": {
+      "trigger_count": 129,
+      "trigger_rate": 0.9923
+    },
+    "current_any_nonzero_score": {
+      "trigger_count": 128,
+      "trigger_rate": 0.9846
+    },
+    "current_review_priority_at_30_points": {
+      "trigger_count": 97,
+      "trigger_rate": 0.7462
+    },
+    "current_high_priority_at_65_points": {
+      "trigger_count": 24,
+      "trigger_rate": 0.1846
+    },
+    "equal_count_review_priority_at_30_points": {
+      "trigger_count": 84,
+      "trigger_rate": 0.6462
+    },
+    "independent_or_vs_current_review_disagreements": 32,
+    "interpretation": "Trigger rates on designed synthetic signal combinations only; not alert accuracy or a false-positive estimate."
+  },
+  "ablation_sensitivity": {
+    "comparison_count": 324,
+    "combination_sizes": [
+      2,
+      3
+    ],
+    "per_component": {
+      "eye_closed": {
+        "ablation_cases": 36,
+        "mean_score_reduction": 30.0,
+        "risk_level_changes": 32,
+        "dropped_below_review_threshold": 22
+      },
+      "zone": {
+        "ablation_cases": 36,
+        "mean_score_reduction": 20.0,
+        "risk_level_changes": 18,
+        "dropped_below_review_threshold": 10
+      },
+      "phone_object": {
+        "ablation_cases": 36,
+        "mean_score_reduction": 8.0,
+        "risk_level_changes": 9,
+        "dropped_below_review_threshold": 6
+      },
+      "phone_call": {
+        "ablation_cases": 36,
+        "mean_score_reduction": 41.3333,
+        "risk_level_changes": 36,
+        "dropped_below_review_threshold": 22
+      },
+      "drinking": {
+        "ablation_cases": 36,
+        "mean_score_reduction": 25.0,
+        "risk_level_changes": 29,
+        "dropped_below_review_threshold": 19
+      },
+      "raised_voice": {
+        "ablation_cases": 36,
+        "mean_score_reduction": 6.0,
+        "risk_level_changes": 8,
+        "dropped_below_review_threshold": 6
+      },
+      "speech_phone": {
+        "ablation_cases": 36,
+        "mean_score_reduction": 1.3333,
+        "risk_level_changes": 1,
+        "dropped_below_review_threshold": 0
+      },
+      "safety": {
+        "ablation_cases": 36,
+        "mean_score_reduction": 6.0,
+        "risk_level_changes": 8,
+        "dropped_below_review_threshold": 6
+      },
+      "telemetry": {
+        "ablation_cases": 36,
+        "mean_score_reduction": 18.0,
+        "risk_level_changes": 15,
+        "dropped_below_review_threshold": 10
+      }
+    },
+    "interpretation": "Leave-one-component-out score changes on synthetic combinations; not a labelled behavioural ablation."
+  },
+  "signal_dependencies": {
+    "constraints": [
+      "phone_call implies a detected phone object",
+      "speech_phone reinforcement requires phone_call evidence"
+    ],
+    "unconstrained_combinations": {
+      "scenario_count": 130,
+      "baseline_comparison": {
+        "scenario_count": 130,
+        "independent_or_any_signal": {
+          "trigger_count": 129,
+          "trigger_rate": 0.9923
+        },
+        "current_any_nonzero_score": {
+          "trigger_count": 128,
+          "trigger_rate": 0.9846
+        },
+        "current_review_priority_at_30_points": {
+          "trigger_count": 97,
+          "trigger_rate": 0.7462
+        },
+        "current_high_priority_at_65_points": {
+          "trigger_count": 24,
+          "trigger_rate": 0.1846
+        },
+        "equal_count_review_priority_at_30_points": {
+          "trigger_count": 84,
+          "trigger_rate": 0.6462
+        },
+        "independent_or_vs_current_review_disagreements": 32,
+        "interpretation": "Trigger rates on designed synthetic signal combinations only; not alert accuracy or a false-positive estimate."
+      },
+      "ablation": {
+        "comparison_count": 324,
+        "combination_sizes": [
+          2,
+          3
+        ],
+        "per_component": {
+          "eye_closed": {
+            "ablation_cases": 36,
+            "mean_score_reduction": 30.0,
+            "risk_level_changes": 32,
+            "dropped_below_review_threshold": 22
+          },
+          "zone": {
+            "ablation_cases": 36,
+            "mean_score_reduction": 20.0,
+            "risk_level_changes": 18,
+            "dropped_below_review_threshold": 10
+          },
+          "phone_object": {
+            "ablation_cases": 36,
+            "mean_score_reduction": 8.0,
+            "risk_level_changes": 9,
+            "dropped_below_review_threshold": 6
+          },
+          "phone_call": {
+            "ablation_cases": 36,
+            "mean_score_reduction": 41.3333,
+            "risk_level_changes": 36,
+            "dropped_below_review_threshold": 22
+          },
+          "drinking": {
+            "ablation_cases": 36,
+            "mean_score_reduction": 25.0,
+            "risk_level_changes": 29,
+            "dropped_below_review_threshold": 19
+          },
+          "raised_voice": {
+            "ablation_cases": 36,
+            "mean_score_reduction": 6.0,
+            "risk_level_changes": 8,
+            "dropped_below_review_threshold": 6
+          },
+          "speech_phone": {
+            "ablation_cases": 36,
+            "mean_score_reduction": 1.3333,
+            "risk_level_changes": 1,
+            "dropped_below_review_threshold": 0
+          },
+          "safety": {
+            "ablation_cases": 36,
+            "mean_score_reduction": 6.0,
+            "risk_level_changes": 8,
+            "dropped_below_review_threshold": 6
+          },
+          "telemetry": {
+            "ablation_cases": 36,
+            "mean_score_reduction": 18.0,
+            "risk_level_changes": 15,
+            "dropped_below_review_threshold": 10
+          }
+        },
+        "interpretation": "Leave-one-component-out score changes on synthetic combinations; not a labelled behavioural ablation."
+      },
+      "interpretation": "Counterfactual component combinations used to expose how the score responds; some combinations are not reachable through the production decision rules."
+    },
+    "dependency_valid_combinations": {
+      "scenario_count": 72,
+      "combinations": [
+        {
+          "active_components": [],
+          "current_score": 0,
+          "current_risk_level": "NORMAL",
+          "equal_count_reference_score": 0,
+          "independent_or_alert": false
+        },
+        {
+          "active_components": [
+            "eye_closed"
+          ],
+          "current_score": 30,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 11,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "zone"
+          ],
+          "current_score": 20,
+          "current_risk_level": "LOW RISK",
+          "equal_count_reference_score": 11,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "phone_object"
+          ],
+          "current_score": 8,
+          "current_risk_level": "LOW RISK",
+          "equal_count_reference_score": 11,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking"
+          ],
+          "current_score": 25,
+          "current_risk_level": "LOW RISK",
+          "equal_count_reference_score": 11,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "raised_voice"
+          ],
+          "current_score": 6,
+          "current_risk_level": "LOW RISK",
+          "equal_count_reference_score": 11,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "safety"
+          ],
+          "current_score": 6,
+          "current_risk_level": "LOW RISK",
+          "equal_count_reference_score": 11,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "telemetry"
+          ],
+          "current_score": 18,
+          "current_risk_level": "LOW RISK",
+          "equal_count_reference_score": 11,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "eye_closed",
+            "zone"
+          ],
+          "current_score": 50,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "eye_closed",
+            "phone_object"
+          ],
+          "current_score": 38,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "eye_closed"
+          ],
+          "current_score": 55,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "eye_closed",
+            "raised_voice"
+          ],
+          "current_score": 36,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "eye_closed",
+            "safety"
+          ],
+          "current_score": 36,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "eye_closed",
+            "telemetry"
+          ],
+          "current_score": 48,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "phone_object",
+            "zone"
+          ],
+          "current_score": 28,
+          "current_risk_level": "LOW RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "zone"
+          ],
+          "current_score": 45,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "raised_voice",
+            "zone"
+          ],
+          "current_score": 26,
+          "current_risk_level": "LOW RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "safety",
+            "zone"
+          ],
+          "current_score": 26,
+          "current_risk_level": "LOW RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "telemetry",
+            "zone"
+          ],
+          "current_score": 38,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "phone_call",
+            "phone_object"
+          ],
+          "current_score": 48,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "phone_object"
+          ],
+          "current_score": 33,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "phone_object",
+            "raised_voice"
+          ],
+          "current_score": 14,
+          "current_risk_level": "LOW RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "phone_object",
+            "safety"
+          ],
+          "current_score": 14,
+          "current_risk_level": "LOW RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "phone_object",
+            "telemetry"
+          ],
+          "current_score": 26,
+          "current_risk_level": "LOW RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "raised_voice"
+          ],
+          "current_score": 31,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "safety"
+          ],
+          "current_score": 31,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "telemetry"
+          ],
+          "current_score": 43,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "raised_voice",
+            "safety"
+          ],
+          "current_score": 12,
+          "current_risk_level": "LOW RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "raised_voice",
+            "telemetry"
+          ],
+          "current_score": 24,
+          "current_risk_level": "LOW RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "safety",
+            "telemetry"
+          ],
+          "current_score": 24,
+          "current_risk_level": "LOW RISK",
+          "equal_count_reference_score": 22,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "eye_closed",
+            "phone_object",
+            "zone"
+          ],
+          "current_score": 58,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "eye_closed",
+            "zone"
+          ],
+          "current_score": 75,
+          "current_risk_level": "HIGH RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "eye_closed",
+            "raised_voice",
+            "zone"
+          ],
+          "current_score": 56,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "eye_closed",
+            "safety",
+            "zone"
+          ],
+          "current_score": 56,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "eye_closed",
+            "telemetry",
+            "zone"
+          ],
+          "current_score": 68,
+          "current_risk_level": "HIGH RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "eye_closed",
+            "phone_call",
+            "phone_object"
+          ],
+          "current_score": 78,
+          "current_risk_level": "HIGH RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "eye_closed",
+            "phone_object"
+          ],
+          "current_score": 63,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "eye_closed",
+            "phone_object",
+            "raised_voice"
+          ],
+          "current_score": 44,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "eye_closed",
+            "phone_object",
+            "safety"
+          ],
+          "current_score": 44,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "eye_closed",
+            "phone_object",
+            "telemetry"
+          ],
+          "current_score": 56,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "eye_closed",
+            "raised_voice"
+          ],
+          "current_score": 61,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "eye_closed",
+            "safety"
+          ],
+          "current_score": 61,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "eye_closed",
+            "telemetry"
+          ],
+          "current_score": 73,
+          "current_risk_level": "HIGH RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "eye_closed",
+            "raised_voice",
+            "safety"
+          ],
+          "current_score": 42,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "eye_closed",
+            "raised_voice",
+            "telemetry"
+          ],
+          "current_score": 54,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "eye_closed",
+            "safety",
+            "telemetry"
+          ],
+          "current_score": 54,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "phone_call",
+            "phone_object",
+            "zone"
+          ],
+          "current_score": 68,
+          "current_risk_level": "HIGH RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "phone_object",
+            "zone"
+          ],
+          "current_score": 53,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "phone_object",
+            "raised_voice",
+            "zone"
+          ],
+          "current_score": 34,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "phone_object",
+            "safety",
+            "zone"
+          ],
+          "current_score": 34,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "phone_object",
+            "telemetry",
+            "zone"
+          ],
+          "current_score": 46,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "raised_voice",
+            "zone"
+          ],
+          "current_score": 51,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "safety",
+            "zone"
+          ],
+          "current_score": 51,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "telemetry",
+            "zone"
+          ],
+          "current_score": 63,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "raised_voice",
+            "safety",
+            "zone"
+          ],
+          "current_score": 32,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "raised_voice",
+            "telemetry",
+            "zone"
+          ],
+          "current_score": 44,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "safety",
+            "telemetry",
+            "zone"
+          ],
+          "current_score": 44,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "phone_call",
+            "phone_object"
+          ],
+          "current_score": 73,
+          "current_risk_level": "HIGH RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "phone_call",
+            "phone_object",
+            "raised_voice"
+          ],
+          "current_score": 54,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "phone_call",
+            "phone_object",
+            "speech_phone"
+          ],
+          "current_score": 54,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "phone_call",
+            "phone_object",
+            "safety"
+          ],
+          "current_score": 54,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "phone_call",
+            "phone_object",
+            "telemetry"
+          ],
+          "current_score": 66,
+          "current_risk_level": "HIGH RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "phone_object",
+            "raised_voice"
+          ],
+          "current_score": 39,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "phone_object",
+            "safety"
+          ],
+          "current_score": 39,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "phone_object",
+            "telemetry"
+          ],
+          "current_score": 51,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "phone_object",
+            "raised_voice",
+            "safety"
+          ],
+          "current_score": 20,
+          "current_risk_level": "LOW RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "phone_object",
+            "raised_voice",
+            "telemetry"
+          ],
+          "current_score": 32,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "phone_object",
+            "safety",
+            "telemetry"
+          ],
+          "current_score": 32,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "raised_voice",
+            "safety"
+          ],
+          "current_score": 37,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "raised_voice",
+            "telemetry"
+          ],
+          "current_score": 49,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "drinking",
+            "safety",
+            "telemetry"
+          ],
+          "current_score": 49,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        },
+        {
+          "active_components": [
+            "raised_voice",
+            "safety",
+            "telemetry"
+          ],
+          "current_score": 30,
+          "current_risk_level": "MODERATE RISK",
+          "equal_count_reference_score": 33,
+          "independent_or_alert": true
+        }
+      ],
+      "baseline_comparison": {
+        "scenario_count": 72,
+        "independent_or_any_signal": {
+          "trigger_count": 71,
+          "trigger_rate": 0.9861
+        },
+        "current_any_nonzero_score": {
+          "trigger_count": 71,
+          "trigger_rate": 0.9861
+        },
+        "current_review_priority_at_30_points": {
+          "trigger_count": 55,
+          "trigger_rate": 0.7639
+        },
+        "current_high_priority_at_65_points": {
+          "trigger_count": 7,
+          "trigger_rate": 0.0972
+        },
+        "equal_count_review_priority_at_30_points": {
+          "trigger_count": 42,
+          "trigger_rate": 0.5833
+        },
+        "independent_or_vs_current_review_disagreements": 16,
+        "interpretation": "Trigger rates on designed synthetic signal combinations only; not alert accuracy or a false-positive estimate."
+      },
+      "ablation": {
+        "comparison_count": 170,
+        "per_component": {
+          "eye_closed": {
+            "ablation_cases": 22,
+            "mean_score_reduction": 30.0
+          },
+          "zone": {
+            "ablation_cases": 22,
+            "mean_score_reduction": 20.0
+          },
+          "phone_object": {
+            "ablation_cases": 29,
+            "mean_score_reduction": 19.2414
+          },
+          "phone_call": {
+            "ablation_cases": 8,
+            "mean_score_reduction": 40.75
+          },
+          "drinking": {
+            "ablation_cases": 22,
+            "mean_score_reduction": 25.0
+          },
+          "raised_voice": {
+            "ablation_cases": 22,
+            "mean_score_reduction": 6.0
+          },
+          "speech_phone": {
+            "ablation_cases": 1,
+            "mean_score_reduction": 6.0
+          },
+          "safety": {
+            "ablation_cases": 22,
+            "mean_score_reduction": 6.0
+          },
+          "telemetry": {
+            "ablation_cases": 22,
+            "mean_score_reduction": 18.0
+          }
+        },
+        "removal_rule": "Removing a prerequisite also removes its dependent signal: removing phone_object removes phone_call and speech_phone; removing phone_call also removes speech_phone.",
+        "interpretation": "Dependency-aware score changes on valid synthetic signal sets; not a labelled behavioural ablation."
+      },
+      "interpretation": "The direct phone and conditional speech dependencies in the implementation are enforced here, but the other synthetic signals are still combined without real-world frequency or ground-truth labels."
+    }
+  },
+  "context_sensitivity": [
+    {
+      "case": "speech_only",
+      "current_score": 0,
+      "current_risk_level": "NORMAL",
+      "risk_breakdown": {
+        "eye": 0,
+        "zone": 0,
+        "phone_object": 0,
+        "phone_call": 0,
+        "drinking": 0,
+        "raised_voice": 0,
+        "speech_phone": 0,
+        "speech_safety": 0,
+        "telemetry": 0
+      }
+    },
+    {
+      "case": "raised_voice_only",
+      "current_score": 6,
+      "current_risk_level": "LOW RISK",
+      "risk_breakdown": {
+        "eye": 0,
+        "zone": 0,
+        "phone_object": 0,
+        "phone_call": 0,
+        "drinking": 0,
+        "raised_voice": 6,
+        "speech_phone": 0,
+        "speech_safety": 0,
+        "telemetry": 0
+      }
+    },
+    {
+      "case": "phone_without_speech",
+      "current_score": 48,
+      "current_risk_level": "MODERATE RISK",
+      "risk_breakdown": {
+        "eye": 0,
+        "zone": 0,
+        "phone_object": 8,
+        "phone_call": 40,
+        "drinking": 0,
+        "raised_voice": 0,
+        "speech_phone": 0,
+        "speech_safety": 0,
+        "telemetry": 0
+      }
+    },
+    {
+      "case": "phone_with_speech",
+      "current_score": 54,
+      "current_risk_level": "MODERATE RISK",
+      "risk_breakdown": {
+        "eye": 0,
+        "zone": 0,
+        "phone_object": 8,
+        "phone_call": 40,
+        "drinking": 0,
+        "raised_voice": 0,
+        "speech_phone": 6,
+        "speech_safety": 0,
+        "telemetry": 0
+      }
+    },
+    {
+      "case": "telemetry_inactive",
+      "current_score": 0,
+      "current_risk_level": "NORMAL",
+      "risk_breakdown": {
+        "eye": 0,
+        "zone": 0,
+        "phone_object": 0,
+        "phone_call": 0,
+        "drinking": 0,
+        "raised_voice": 0,
+        "speech_phone": 0,
+        "speech_safety": 0,
+        "telemetry": 0
+      }
+    },
+    {
+      "case": "telemetry_active",
+      "current_score": 18,
+      "current_risk_level": "LOW RISK",
+      "risk_breakdown": {
+        "eye": 0,
+        "zone": 0,
+        "phone_object": 0,
+        "phone_call": 0,
+        "drinking": 0,
+        "raised_voice": 0,
+        "speech_phone": 0,
+        "speech_safety": 0,
+        "telemetry": 18
+      }
+    }
+  ],
+  "persistence_sensitivity": [
+    {
+      "confirm_frames": 1,
+      "first_confirmed_frame": 3,
+      "last_confirmed_frame": 11,
+      "sequence_length": 12
+    },
+    {
+      "confirm_frames": 2,
+      "first_confirmed_frame": 4,
+      "last_confirmed_frame": 10,
+      "sequence_length": 12
+    },
+    {
+      "confirm_frames": 3,
+      "first_confirmed_frame": 5,
+      "last_confirmed_frame": 9,
+      "sequence_length": 12
+    },
+    {
+      "confirm_frames": 5,
+      "first_confirmed_frame": 7,
+      "last_confirmed_frame": 7,
+      "sequence_length": 12
+    }
+  ],
+  "limitations": [
+    "Synthetic combinations do not establish which alerts are correct in real trips.",
+    "The equal-count and OR references are comparators, not validated alternatives.",
+    "Baseline trigger rates and leave-one-component-out changes are mechanistic synthetic comparisons, not accuracy or false-alarm measures.",
+    "Risk score values are heuristic evidence weights and are not probabilities."
+  ]
+}

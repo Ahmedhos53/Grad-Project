@@ -1,0 +1,101 @@
+{
+  "status": "synthetic_logic_contract_only",
+  "live_camera_used": false,
+  "raw_frames_saved": false,
+  "action_metrics": {
+    "drinking": {
+      "support": 2,
+      "positive_support": 1,
+      "negative_support": 1,
+      "true_positive": 1,
+      "true_negative": 1,
+      "false_positive": 0,
+      "false_negative": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "false_positive_rate": 0.0
+    },
+    "phone_call": {
+      "support": 3,
+      "positive_support": 1,
+      "negative_support": 2,
+      "true_positive": 1,
+      "true_negative": 2,
+      "false_positive": 0,
+      "false_negative": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "false_positive_rate": 0.0
+    }
+  },
+  "safe_zone_metrics": {
+    "support": 2,
+    "positive_support": 1,
+    "negative_support": 1,
+    "true_positive": 1,
+    "true_negative": 1,
+    "false_positive": 0,
+    "false_negative": 0,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "false_positive_rate": 0.0
+  },
+  "action_scenarios": [
+    {
+      "id": "normal_no_objects",
+      "signal": "phone_call",
+      "expected": false,
+      "predicted": false
+    },
+    {
+      "id": "phone_near_ear_with_hand_contact",
+      "signal": "phone_call",
+      "expected": true,
+      "predicted": true
+    },
+    {
+      "id": "phone_near_ear_without_hand_contact",
+      "signal": "phone_call",
+      "expected": false,
+      "predicted": false
+    },
+    {
+      "id": "cup_at_mouth_with_hand_contact",
+      "signal": "drinking",
+      "expected": true,
+      "predicted": true
+    },
+    {
+      "id": "cup_away_from_mouth",
+      "signal": "drinking",
+      "expected": false,
+      "predicted": false
+    }
+  ],
+  "safe_zone_scenarios": [
+    {
+      "id": "landmarks_inside_safe_box",
+      "expected": false,
+      "predicted": false,
+      "outside_landmarks": []
+    },
+    {
+      "id": "right_wrist_outside_safe_box",
+      "expected": true,
+      "predicted": true,
+      "outside_landmarks": [
+        "Right Wrist"
+      ]
+    }
+  ],
+  "limitations": [
+    "Scenarios use synthetic landmarks and boxes rather than labelled camera frames.",
+    "Results verify rule contracts only; they do not measure YOLO, MediaPipe, lighting, occlusion, or camera accuracy."
+  ]
+}

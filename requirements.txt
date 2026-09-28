@@ -1,0 +1,26 @@
+# CabInspector runtime dependencies
+opencv-python==4.10.0.84
+opencv-contrib-python==4.10.0.84
+mediapipe==0.10.21
+ultralytics
+numpy==1.26.4
+pillow
+arabic-reshaper
+python-bidi
+jax==0.4.28
+jaxlib==0.4.28
+sentencepiece
+sounddevice
+ai-edge-litert==2.1.6
+faster-whisper
+transformers
+safetensors
+# Telemetry model training and evaluation (public Driving Events Dataset)
+pandas==2.2.3
+scikit-learn==1.5.2
+joblib
+torch
+psutil
+# Report figures and PDF export
+matplotlib
+reportlab

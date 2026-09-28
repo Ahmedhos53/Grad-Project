@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "description": "Allow-listed upstream model assets. Downloads are optional, HTTPS-only, atomic, and SHA-256 verified by tools/setup_models.py.",
+  "assets": [
+    {
+      "id": "yolov8n",
+      "path": "yolov8n.pt",
+      "url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n.pt",
+      "bytes": 6549796,
+      "sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+      "purpose": "Fast YOLOv8 visual detector for the dashboard",
+      "licence_note": "Ultralytics identifies its YOLO code and trained models as AGPL-3.0 for the open-source option; review the upstream terms before distribution."
+    },
+    {
+      "id": "yolov8s",
+      "path": "yolov8s.pt",
+      "url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8s.pt",
+      "bytes": 22588772,
+      "sha256": "1f47a78bf100391c2a140b7ac73a1caae18c32779be7d310658112f7ac9aa78a",
+      "purpose": "Higher-capacity optional YOLOv8 visual detector",
+      "licence_note": "Ultralytics identifies its YOLO code and trained models as AGPL-3.0 for the open-source option; review the upstream terms before distribution."
+    },
+    {
+      "id": "yamnet",
+      "path": "models/audio/yamnet_audio_classifier_with_metadata.tflite",
+      "url": "https://storage.googleapis.com/mediapipe-assets/yamnet_audio_classifier_with_metadata.tflite?generation=1661875980774466",
+      "bytes": 4126810,
+      "sha256": "10c95ea3eb9a7bb4cb8bddf6feb023250381008177ac162ce169694d05c317de",
+      "purpose": "Metadata-enabled YAMNet audio-event classifier",
+      "licence_note": "TensorFlow Models YAMNet implementation is Apache-2.0; licence terms specific to this MediaPipe-hosted TFLite asset were not verified and must be checked before redistribution."
+    },
+    {
+      "id": "primus_checkpoint",
+      "path": "models/telemetry/pretrained/primus/best_model.ckpt",
+      "url": "https://zenodo.org/api/records/15147513/files/best_model.ckpt/content",
+      "bytes": 621911316,
+      "sha256": "66392f3cebf1dcbe079fc4b8bdf3b4460bb7bcad8e47a217d114fcdf917fba3f",
+      "md5": "badba8cbbd15cd685f2ed08ee7331aaa",
+      "purpose": "Externally pretrained PRIMUS IMU encoder checkpoint",
+      "licence_note": "CC BY 4.0 according to Zenodo record 15147513; retain attribution and verify terms."
+    }
+  ]
+}

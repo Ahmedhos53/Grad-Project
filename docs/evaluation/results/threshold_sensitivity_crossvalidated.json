@@ -1,0 +1,1258 @@
+{
+  "status": "descriptive_threshold_sensitivity_on_trip_held_out_predictions",
+  "source": "D:\\University\\Year 3\\Year 3 Semester 2 (Final Semester)\\Graduation Project\\CabInspector\\outputs\\report_revision\\telemetry\\continuous_telemetry_crossvalidated.json",
+  "live_phone_telemetry_used": false,
+  "models": {
+    "primus": [
+      {
+        "support": 3728,
+        "accuracy": 0.5418,
+        "macro_f1": 0.4165,
+        "macro_f1_all_classes": 0.4165,
+        "macro_f1_present_classes": 0.4165,
+        "class_names": [
+          "NORMAL",
+          "HARD_BRAKE",
+          "RAPID_ACCELERATION",
+          "AGGRESSIVE_TURN",
+          "AGGRESSIVE_LANE_CHANGE"
+        ],
+        "confusion_matrix": [
+          [
+            1434,
+            112,
+            470,
+            268,
+            161
+          ],
+          [
+            40,
+            62,
+            11,
+            5,
+            32
+          ],
+          [
+            89,
+            8,
+            100,
+            6,
+            14
+          ],
+          [
+            100,
+            28,
+            32,
+            241,
+            80
+          ],
+          [
+            97,
+            28,
+            62,
+            65,
+            183
+          ]
+        ],
+        "per_class": {
+          "NORMAL": {
+            "support": 2445,
+            "precision": 0.8148,
+            "recall": 0.5865,
+            "f1": 0.682
+          },
+          "HARD_BRAKE": {
+            "support": 150,
+            "precision": 0.2605,
+            "recall": 0.4133,
+            "f1": 0.3196
+          },
+          "RAPID_ACCELERATION": {
+            "support": 217,
+            "precision": 0.1481,
+            "recall": 0.4608,
+            "f1": 0.2242
+          },
+          "AGGRESSIVE_TURN": {
+            "support": 481,
+            "precision": 0.412,
+            "recall": 0.501,
+            "f1": 0.4522
+          },
+          "AGGRESSIVE_LANE_CHANGE": {
+            "support": 435,
+            "precision": 0.3894,
+            "recall": 0.4207,
+            "f1": 0.4044
+          }
+        },
+        "threshold": 0.0,
+        "false_positive_windows": 1011,
+        "normal_labeled_decision_exposure_seconds": 2445.0,
+        "false_positive_windows_per_normal_labeled_decision_minute": 24.8098,
+        "alert_episodes": {
+          "total": 166,
+          "unmatched_normal": 60,
+          "overlaps_labeled_event": 106,
+          "per_trip": {
+            "1": {
+              "total": 77,
+              "unmatched_normal": 27,
+              "overlaps_labeled_event": 50
+            },
+            "2": {
+              "total": 30,
+              "unmatched_normal": 9,
+              "overlaps_labeled_event": 21
+            },
+            "3": {
+              "total": 59,
+              "unmatched_normal": 24,
+              "overlaps_labeled_event": 35
+            }
+          },
+          "confidence_threshold": 0.0,
+          "merge_gap_seconds": 3.0,
+          "merge_rule": "Within each trip, threshold-passing non-NORMAL decisions whose window-start times are at most 3 seconds apart are one episode, irrespective of predicted class. An episode is unmatched only when all its alert windows are labelled NORMAL.",
+          "interpretation": "Merged offline alert-window episodes, not emitted dashboard events or validated driver events."
+        },
+        "suppressed_predictions": 0
+      },
+      {
+        "support": 3728,
+        "accuracy": 0.5628,
+        "macro_f1": 0.4194,
+        "macro_f1_all_classes": 0.4194,
+        "macro_f1_present_classes": 0.4194,
+        "class_names": [
+          "NORMAL",
+          "HARD_BRAKE",
+          "RAPID_ACCELERATION",
+          "AGGRESSIVE_TURN",
+          "AGGRESSIVE_LANE_CHANGE"
+        ],
+        "confusion_matrix": [
+          [
+            1552,
+            97,
+            439,
+            234,
+            123
+          ],
+          [
+            54,
+            56,
+            10,
+            3,
+            27
+          ],
+          [
+            107,
+            6,
+            94,
+            2,
+            8
+          ],
+          [
+            132,
+            26,
+            29,
+            234,
+            60
+          ],
+          [
+            145,
+            26,
+            50,
+            52,
+            162
+          ]
+        ],
+        "per_class": {
+          "NORMAL": {
+            "support": 2445,
+            "precision": 0.7799,
+            "recall": 0.6348,
+            "f1": 0.6999
+          },
+          "HARD_BRAKE": {
+            "support": 150,
+            "precision": 0.2654,
+            "recall": 0.3733,
+            "f1": 0.3102
+          },
+          "RAPID_ACCELERATION": {
+            "support": 217,
+            "precision": 0.1511,
+            "recall": 0.4332,
+            "f1": 0.2241
+          },
+          "AGGRESSIVE_TURN": {
+            "support": 481,
+            "precision": 0.4457,
+            "recall": 0.4865,
+            "f1": 0.4652
+          },
+          "AGGRESSIVE_LANE_CHANGE": {
+            "support": 435,
+            "precision": 0.4263,
+            "recall": 0.3724,
+            "f1": 0.3975
+          }
+        },
+        "threshold": 0.55,
+        "false_positive_windows": 893,
+        "normal_labeled_decision_exposure_seconds": 2445.0,
+        "false_positive_windows_per_normal_labeled_decision_minute": 21.9141,
+        "alert_episodes": {
+          "total": 192,
+          "unmatched_normal": 76,
+          "overlaps_labeled_event": 116,
+          "per_trip": {
+            "1": {
+              "total": 86,
+              "unmatched_normal": 34,
+              "overlaps_labeled_event": 52
+            },
+            "2": {
+              "total": 38,
+              "unmatched_normal": 12,
+              "overlaps_labeled_event": 26
+            },
+            "3": {
+              "total": 68,
+              "unmatched_normal": 30,
+              "overlaps_labeled_event": 38
+            }
+          },
+          "confidence_threshold": 0.55,
+          "merge_gap_seconds": 3.0,
+          "merge_rule": "Within each trip, threshold-passing non-NORMAL decisions whose window-start times are at most 3 seconds apart are one episode, irrespective of predicted class. An episode is unmatched only when all its alert windows are labelled NORMAL.",
+          "interpretation": "Merged offline alert-window episodes, not emitted dashboard events or validated driver events."
+        },
+        "suppressed_predictions": 304
+      },
+      {
+        "support": 3728,
+        "accuracy": 0.5928,
+        "macro_f1": 0.4197,
+        "macro_f1_all_classes": 0.4197,
+        "macro_f1_present_classes": 0.4197,
+        "class_names": [
+          "NORMAL",
+          "HARD_BRAKE",
+          "RAPID_ACCELERATION",
+          "AGGRESSIVE_TURN",
+          "AGGRESSIVE_LANE_CHANGE"
+        ],
+        "confusion_matrix": [
+          [
+            1725,
+            76,
+            374,
+            192,
+            78
+          ],
+          [
+            71,
+            50,
+            9,
+            2,
+            18
+          ],
+          [
+            125,
+            6,
+            78,
+            2,
+            6
+          ],
+          [
+            177,
+            24,
+            22,
+            217,
+            41
+          ],
+          [
+            192,
+            22,
+            41,
+            40,
+            140
+          ]
+        ],
+        "per_class": {
+          "NORMAL": {
+            "support": 2445,
+            "precision": 0.7533,
+            "recall": 0.7055,
+            "f1": 0.7286
+          },
+          "HARD_BRAKE": {
+            "support": 150,
+            "precision": 0.2809,
+            "recall": 0.3333,
+            "f1": 0.3049
+          },
+          "RAPID_ACCELERATION": {
+            "support": 217,
+            "precision": 0.1489,
+            "recall": 0.3594,
+            "f1": 0.2105
+          },
+          "AGGRESSIVE_TURN": {
+            "support": 481,
+            "precision": 0.479,
+            "recall": 0.4511,
+            "f1": 0.4647
+          },
+          "AGGRESSIVE_LANE_CHANGE": {
+            "support": 435,
+            "precision": 0.4947,
+            "recall": 0.3218,
+            "f1": 0.39
+          }
+        },
+        "threshold": 0.7,
+        "false_positive_windows": 720,
+        "normal_labeled_decision_exposure_seconds": 2445.0,
+        "false_positive_windows_per_normal_labeled_decision_minute": 17.6687,
+        "alert_episodes": {
+          "total": 213,
+          "unmatched_normal": 91,
+          "overlaps_labeled_event": 122,
+          "per_trip": {
+            "1": {
+              "total": 83,
+              "unmatched_normal": 32,
+              "overlaps_labeled_event": 51
+            },
+            "2": {
+              "total": 45,
+              "unmatched_normal": 15,
+              "overlaps_labeled_event": 30
+            },
+            "3": {
+              "total": 85,
+              "unmatched_normal": 44,
+              "overlaps_labeled_event": 41
+            }
+          },
+          "confidence_threshold": 0.7,
+          "merge_gap_seconds": 3.0,
+          "merge_rule": "Within each trip, threshold-passing non-NORMAL decisions whose window-start times are at most 3 seconds apart are one episode, irrespective of predicted class. An episode is unmatched only when all its alert windows are labelled NORMAL.",
+          "interpretation": "Merged offline alert-window episodes, not emitted dashboard events or validated driver events."
+        },
+        "suppressed_predictions": 748
+      },
+      {
+        "support": 3728,
+        "accuracy": 0.6092,
+        "macro_f1": 0.4138,
+        "macro_f1_all_classes": 0.4138,
+        "macro_f1_present_classes": 0.4138,
+        "class_names": [
+          "NORMAL",
+          "HARD_BRAKE",
+          "RAPID_ACCELERATION",
+          "AGGRESSIVE_TURN",
+          "AGGRESSIVE_LANE_CHANGE"
+        ],
+        "confusion_matrix": [
+          [
+            1838,
+            61,
+            326,
+            167,
+            53
+          ],
+          [
+            80,
+            46,
+            8,
+            2,
+            14
+          ],
+          [
+            140,
+            4,
+            68,
+            2,
+            3
+          ],
+          [
+            210,
+            21,
+            22,
+            197,
+            31
+          ],
+          [
+            228,
+            19,
+            33,
+            33,
+            122
+          ]
+        ],
+        "per_class": {
+          "NORMAL": {
+            "support": 2445,
+            "precision": 0.7364,
+            "recall": 0.7517,
+            "f1": 0.744
+          },
+          "HARD_BRAKE": {
+            "support": 150,
+            "precision": 0.3046,
+            "recall": 0.3067,
+            "f1": 0.3056
+          },
+          "RAPID_ACCELERATION": {
+            "support": 217,
+            "precision": 0.1488,
+            "recall": 0.3134,
+            "f1": 0.2018
+          },
+          "AGGRESSIVE_TURN": {
+            "support": 481,
+            "precision": 0.4913,
+            "recall": 0.4096,
+            "f1": 0.4467
+          },
+          "AGGRESSIVE_LANE_CHANGE": {
+            "support": 435,
+            "precision": 0.5471,
+            "recall": 0.2805,
+            "f1": 0.3708
+          }
+        },
+        "threshold": 0.8,
+        "false_positive_windows": 607,
+        "normal_labeled_decision_exposure_seconds": 2445.0,
+        "false_positive_windows_per_normal_labeled_decision_minute": 14.8957,
+        "alert_episodes": {
+          "total": 223,
+          "unmatched_normal": 96,
+          "overlaps_labeled_event": 127,
+          "per_trip": {
+            "1": {
+              "total": 82,
+              "unmatched_normal": 30,
+              "overlaps_labeled_event": 52
+            },
+            "2": {
+              "total": 44,
+              "unmatched_normal": 14,
+              "overlaps_labeled_event": 30
+            },
+            "3": {
+              "total": 97,
+              "unmatched_normal": 52,
+              "overlaps_labeled_event": 45
+            }
+          },
+          "confidence_threshold": 0.8,
+          "merge_gap_seconds": 3.0,
+          "merge_rule": "Within each trip, threshold-passing non-NORMAL decisions whose window-start times are at most 3 seconds apart are one episode, irrespective of predicted class. An episode is unmatched only when all its alert windows are labelled NORMAL.",
+          "interpretation": "Merged offline alert-window episodes, not emitted dashboard events or validated driver events."
+        },
+        "suppressed_predictions": 1054
+      },
+      {
+        "support": 3728,
+        "accuracy": 0.6247,
+        "macro_f1": 0.3878,
+        "macro_f1_all_classes": 0.3878,
+        "macro_f1_present_classes": 0.3878,
+        "class_names": [
+          "NORMAL",
+          "HARD_BRAKE",
+          "RAPID_ACCELERATION",
+          "AGGRESSIVE_TURN",
+          "AGGRESSIVE_LANE_CHANGE"
+        ],
+        "confusion_matrix": [
+          [
+            1974,
+            44,
+            262,
+            138,
+            27
+          ],
+          [
+            103,
+            30,
+            6,
+            1,
+            10
+          ],
+          [
+            152,
+            4,
+            58,
+            2,
+            1
+          ],
+          [
+            264,
+            17,
+            17,
+            168,
+            15
+          ],
+          [
+            277,
+            14,
+            25,
+            20,
+            99
+          ]
+        ],
+        "per_class": {
+          "NORMAL": {
+            "support": 2445,
+            "precision": 0.7126,
+            "recall": 0.8074,
+            "f1": 0.757
+          },
+          "HARD_BRAKE": {
+            "support": 150,
+            "precision": 0.2752,
+            "recall": 0.2,
+            "f1": 0.2317
+          },
+          "RAPID_ACCELERATION": {
+            "support": 217,
+            "precision": 0.1576,
+            "recall": 0.2673,
+            "f1": 0.1983
+          },
+          "AGGRESSIVE_TURN": {
+            "support": 481,
+            "precision": 0.5106,
+            "recall": 0.3493,
+            "f1": 0.4148
+          },
+          "AGGRESSIVE_LANE_CHANGE": {
+            "support": 435,
+            "precision": 0.6513,
+            "recall": 0.2276,
+            "f1": 0.3373
+          }
+        },
+        "threshold": 0.9,
+        "false_positive_windows": 471,
+        "normal_labeled_decision_exposure_seconds": 2445.0,
+        "false_positive_windows_per_normal_labeled_decision_minute": 11.5583,
+        "alert_episodes": {
+          "total": 223,
+          "unmatched_normal": 91,
+          "overlaps_labeled_event": 132,
+          "per_trip": {
+            "1": {
+              "total": 78,
+              "unmatched_normal": 22,
+              "overlaps_labeled_event": 56
+            },
+            "2": {
+              "total": 45,
+              "unmatched_normal": 17,
+              "overlaps_labeled_event": 28
+            },
+            "3": {
+              "total": 100,
+              "unmatched_normal": 52,
+              "overlaps_labeled_event": 48
+            }
+          },
+          "confidence_threshold": 0.9,
+          "merge_gap_seconds": 3.0,
+          "merge_rule": "Within each trip, threshold-passing non-NORMAL decisions whose window-start times are at most 3 seconds apart are one episode, irrespective of predicted class. An episode is unmatched only when all its alert windows are labelled NORMAL.",
+          "interpretation": "Merged offline alert-window episodes, not emitted dashboard events or validated driver events."
+        },
+        "suppressed_predictions": 1484
+      }
+    ],
+    "random_forest": [
+      {
+        "support": 3728,
+        "accuracy": 0.6663,
+        "macro_f1": 0.5446,
+        "macro_f1_all_classes": 0.5446,
+        "macro_f1_present_classes": 0.5446,
+        "class_names": [
+          "NORMAL",
+          "HARD_BRAKE",
+          "RAPID_ACCELERATION",
+          "AGGRESSIVE_TURN",
+          "AGGRESSIVE_LANE_CHANGE"
+        ],
+        "confusion_matrix": [
+          [
+            1704,
+            96,
+            226,
+            108,
+            311
+          ],
+          [
+            66,
+            72,
+            8,
+            0,
+            4
+          ],
+          [
+            73,
+            16,
+            120,
+            1,
+            7
+          ],
+          [
+            56,
+            4,
+            16,
+            274,
+            131
+          ],
+          [
+            79,
+            20,
+            15,
+            7,
+            314
+          ]
+        ],
+        "per_class": {
+          "NORMAL": {
+            "support": 2445,
+            "precision": 0.8615,
+            "recall": 0.6969,
+            "f1": 0.7705
+          },
+          "HARD_BRAKE": {
+            "support": 150,
+            "precision": 0.3462,
+            "recall": 0.48,
+            "f1": 0.4022
+          },
+          "RAPID_ACCELERATION": {
+            "support": 217,
+            "precision": 0.3117,
+            "recall": 0.553,
+            "f1": 0.3987
+          },
+          "AGGRESSIVE_TURN": {
+            "support": 481,
+            "precision": 0.7026,
+            "recall": 0.5696,
+            "f1": 0.6292
+          },
+          "AGGRESSIVE_LANE_CHANGE": {
+            "support": 435,
+            "precision": 0.4094,
+            "recall": 0.7218,
+            "f1": 0.5225
+          }
+        },
+        "threshold": 0.0,
+        "false_positive_windows": 741,
+        "normal_labeled_decision_exposure_seconds": 2445.0,
+        "false_positive_windows_per_normal_labeled_decision_minute": 18.184,
+        "alert_episodes": {
+          "total": 136,
+          "unmatched_normal": 39,
+          "overlaps_labeled_event": 97,
+          "per_trip": {
+            "1": {
+              "total": 51,
+              "unmatched_normal": 12,
+              "overlaps_labeled_event": 39
+            },
+            "2": {
+              "total": 26,
+              "unmatched_normal": 2,
+              "overlaps_labeled_event": 24
+            },
+            "3": {
+              "total": 59,
+              "unmatched_normal": 25,
+              "overlaps_labeled_event": 34
+            }
+          },
+          "confidence_threshold": 0.0,
+          "merge_gap_seconds": 3.0,
+          "merge_rule": "Within each trip, threshold-passing non-NORMAL decisions whose window-start times are at most 3 seconds apart are one episode, irrespective of predicted class. An episode is unmatched only when all its alert windows are labelled NORMAL.",
+          "interpretation": "Merged offline alert-window episodes, not emitted dashboard events or validated driver events."
+        },
+        "suppressed_predictions": 0
+      },
+      {
+        "support": 3728,
+        "accuracy": 0.7103,
+        "macro_f1": 0.4683,
+        "macro_f1_all_classes": 0.4683,
+        "macro_f1_present_classes": 0.4683,
+        "class_names": [
+          "NORMAL",
+          "HARD_BRAKE",
+          "RAPID_ACCELERATION",
+          "AGGRESSIVE_TURN",
+          "AGGRESSIVE_LANE_CHANGE"
+        ],
+        "confusion_matrix": [
+          [
+            2141,
+            6,
+            68,
+            92,
+            138
+          ],
+          [
+            128,
+            21,
+            0,
+            0,
+            1
+          ],
+          [
+            178,
+            1,
+            36,
+            1,
+            1
+          ],
+          [
+            208,
+            0,
+            3,
+            204,
+            66
+          ],
+          [
+            181,
+            2,
+            0,
+            6,
+            246
+          ]
+        ],
+        "per_class": {
+          "NORMAL": {
+            "support": 2445,
+            "precision": 0.7549,
+            "recall": 0.8757,
+            "f1": 0.8108
+          },
+          "HARD_BRAKE": {
+            "support": 150,
+            "precision": 0.7,
+            "recall": 0.14,
+            "f1": 0.2333
+          },
+          "RAPID_ACCELERATION": {
+            "support": 217,
+            "precision": 0.3364,
+            "recall": 0.1659,
+            "f1": 0.2222
+          },
+          "AGGRESSIVE_TURN": {
+            "support": 481,
+            "precision": 0.6733,
+            "recall": 0.4241,
+            "f1": 0.5204
+          },
+          "AGGRESSIVE_LANE_CHANGE": {
+            "support": 435,
+            "precision": 0.5442,
+            "recall": 0.5655,
+            "f1": 0.5547
+          }
+        },
+        "threshold": 0.55,
+        "false_positive_windows": 304,
+        "normal_labeled_decision_exposure_seconds": 2445.0,
+        "false_positive_windows_per_normal_labeled_decision_minute": 7.4601,
+        "alert_episodes": {
+          "total": 147,
+          "unmatched_normal": 40,
+          "overlaps_labeled_event": 107,
+          "per_trip": {
+            "1": {
+              "total": 64,
+              "unmatched_normal": 19,
+              "overlaps_labeled_event": 45
+            },
+            "2": {
+              "total": 24,
+              "unmatched_normal": 2,
+              "overlaps_labeled_event": 22
+            },
+            "3": {
+              "total": 59,
+              "unmatched_normal": 19,
+              "overlaps_labeled_event": 40
+            }
+          },
+          "confidence_threshold": 0.55,
+          "merge_gap_seconds": 3.0,
+          "merge_rule": "Within each trip, threshold-passing non-NORMAL decisions whose window-start times are at most 3 seconds apart are one episode, irrespective of predicted class. An episode is unmatched only when all its alert windows are labelled NORMAL.",
+          "interpretation": "Merged offline alert-window episodes, not emitted dashboard events or validated driver events."
+        },
+        "suppressed_predictions": 1966
+      },
+      {
+        "support": 3728,
+        "accuracy": 0.7068,
+        "macro_f1": 0.3559,
+        "macro_f1_all_classes": 0.3559,
+        "macro_f1_present_classes": 0.3559,
+        "class_names": [
+          "NORMAL",
+          "HARD_BRAKE",
+          "RAPID_ACCELERATION",
+          "AGGRESSIVE_TURN",
+          "AGGRESSIVE_LANE_CHANGE"
+        ],
+        "confusion_matrix": [
+          [
+            2320,
+            0,
+            8,
+            69,
+            48
+          ],
+          [
+            150,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            208,
+            0,
+            8,
+            1,
+            0
+          ],
+          [
+            306,
+            0,
+            0,
+            149,
+            26
+          ],
+          [
+            273,
+            0,
+            0,
+            4,
+            158
+          ]
+        ],
+        "per_class": {
+          "NORMAL": {
+            "support": 2445,
+            "precision": 0.7123,
+            "recall": 0.9489,
+            "f1": 0.8137
+          },
+          "HARD_BRAKE": {
+            "support": 150,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "RAPID_ACCELERATION": {
+            "support": 217,
+            "precision": 0.5,
+            "recall": 0.0369,
+            "f1": 0.0687
+          },
+          "AGGRESSIVE_TURN": {
+            "support": 481,
+            "precision": 0.6682,
+            "recall": 0.3098,
+            "f1": 0.4233
+          },
+          "AGGRESSIVE_LANE_CHANGE": {
+            "support": 435,
+            "precision": 0.681,
+            "recall": 0.3632,
+            "f1": 0.4738
+          }
+        },
+        "threshold": 0.7,
+        "false_positive_windows": 125,
+        "normal_labeled_decision_exposure_seconds": 2445.0,
+        "false_positive_windows_per_normal_labeled_decision_minute": 3.0675,
+        "alert_episodes": {
+          "total": 105,
+          "unmatched_normal": 25,
+          "overlaps_labeled_event": 80,
+          "per_trip": {
+            "1": {
+              "total": 39,
+              "unmatched_normal": 12,
+              "overlaps_labeled_event": 27
+            },
+            "2": {
+              "total": 20,
+              "unmatched_normal": 1,
+              "overlaps_labeled_event": 19
+            },
+            "3": {
+              "total": 46,
+              "unmatched_normal": 12,
+              "overlaps_labeled_event": 34
+            }
+          },
+          "confidence_threshold": 0.7,
+          "merge_gap_seconds": 3.0,
+          "merge_rule": "Within each trip, threshold-passing non-NORMAL decisions whose window-start times are at most 3 seconds apart are one episode, irrespective of predicted class. An episode is unmatched only when all its alert windows are labelled NORMAL.",
+          "interpretation": "Merged offline alert-window episodes, not emitted dashboard events or validated driver events."
+        },
+        "suppressed_predictions": 3068
+      },
+      {
+        "support": 3728,
+        "accuracy": 0.6902,
+        "macro_f1": 0.2946,
+        "macro_f1_all_classes": 0.2946,
+        "macro_f1_present_classes": 0.2946,
+        "class_names": [
+          "NORMAL",
+          "HARD_BRAKE",
+          "RAPID_ACCELERATION",
+          "AGGRESSIVE_TURN",
+          "AGGRESSIVE_LANE_CHANGE"
+        ],
+        "confusion_matrix": [
+          [
+            2381,
+            0,
+            0,
+            47,
+            17
+          ],
+          [
+            150,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            214,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            370,
+            0,
+            0,
+            98,
+            13
+          ],
+          [
+            340,
+            0,
+            0,
+            4,
+            91
+          ]
+        ],
+        "per_class": {
+          "NORMAL": {
+            "support": 2445,
+            "precision": 0.6891,
+            "recall": 0.9738,
+            "f1": 0.8071
+          },
+          "HARD_BRAKE": {
+            "support": 150,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "RAPID_ACCELERATION": {
+            "support": 217,
+            "precision": 1.0,
+            "recall": 0.0138,
+            "f1": 0.0273
+          },
+          "AGGRESSIVE_TURN": {
+            "support": 481,
+            "precision": 0.6577,
+            "recall": 0.2037,
+            "f1": 0.3111
+          },
+          "AGGRESSIVE_LANE_CHANGE": {
+            "support": 435,
+            "precision": 0.7521,
+            "recall": 0.2092,
+            "f1": 0.3273
+          }
+        },
+        "threshold": 0.8,
+        "false_positive_windows": 64,
+        "normal_labeled_decision_exposure_seconds": 2445.0,
+        "false_positive_windows_per_normal_labeled_decision_minute": 1.5706,
+        "alert_episodes": {
+          "total": 81,
+          "unmatched_normal": 16,
+          "overlaps_labeled_event": 65,
+          "per_trip": {
+            "1": {
+              "total": 23,
+              "unmatched_normal": 3,
+              "overlaps_labeled_event": 20
+            },
+            "2": {
+              "total": 21,
+              "unmatched_normal": 3,
+              "overlaps_labeled_event": 18
+            },
+            "3": {
+              "total": 37,
+              "unmatched_normal": 10,
+              "overlaps_labeled_event": 27
+            }
+          },
+          "confidence_threshold": 0.8,
+          "merge_gap_seconds": 3.0,
+          "merge_rule": "Within each trip, threshold-passing non-NORMAL decisions whose window-start times are at most 3 seconds apart are one episode, irrespective of predicted class. An episode is unmatched only when all its alert windows are labelled NORMAL.",
+          "interpretation": "Merged offline alert-window episodes, not emitted dashboard events or validated driver events."
+        },
+        "suppressed_predictions": 3411
+      },
+      {
+        "support": 3728,
+        "accuracy": 0.6714,
+        "macro_f1": 0.2248,
+        "macro_f1_all_classes": 0.2248,
+        "macro_f1_present_classes": 0.2248,
+        "class_names": [
+          "NORMAL",
+          "HARD_BRAKE",
+          "RAPID_ACCELERATION",
+          "AGGRESSIVE_TURN",
+          "AGGRESSIVE_LANE_CHANGE"
+        ],
+        "confusion_matrix": [
+          [
+            2417,
+            0,
+            0,
+            27,
+            1
+          ],
+          [
+            150,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            217,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            424,
+            0,
+            0,
+            57,
+            0
+          ],
+          [
+            405,
+            0,
+            0,
+            1,
+            29
+          ]
+        ],
+        "per_class": {
+          "NORMAL": {
+            "support": 2445,
+            "precision": 0.669,
+            "recall": 0.9885,
+            "f1": 0.798
+          },
+          "HARD_BRAKE": {
+            "support": 150,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "RAPID_ACCELERATION": {
+            "support": 217,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "AGGRESSIVE_TURN": {
+            "support": 481,
+            "precision": 0.6706,
+            "recall": 0.1185,
+            "f1": 0.2014
+          },
+          "AGGRESSIVE_LANE_CHANGE": {
+            "support": 435,
+            "precision": 0.9667,
+            "recall": 0.0667,
+            "f1": 0.1247
+          }
+        },
+        "threshold": 0.9,
+        "false_positive_windows": 28,
+        "normal_labeled_decision_exposure_seconds": 2445.0,
+        "false_positive_windows_per_normal_labeled_decision_minute": 0.6871,
+        "alert_episodes": {
+          "total": 40,
+          "unmatched_normal": 9,
+          "overlaps_labeled_event": 31,
+          "per_trip": {
+            "1": {
+              "total": 9,
+              "unmatched_normal": 1,
+              "overlaps_labeled_event": 8
+            },
+            "2": {
+              "total": 13,
+              "unmatched_normal": 1,
+              "overlaps_labeled_event": 12
+            },
+            "3": {
+              "total": 18,
+              "unmatched_normal": 7,
+              "overlaps_labeled_event": 11
+            }
+          },
+          "confidence_threshold": 0.9,
+          "merge_gap_seconds": 3.0,
+          "merge_rule": "Within each trip, threshold-passing non-NORMAL decisions whose window-start times are at most 3 seconds apart are one episode, irrespective of predicted class. An episode is unmatched only when all its alert windows are labelled NORMAL.",
+          "interpretation": "Merged offline alert-window episodes, not emitted dashboard events or validated driver events."
+        },
+        "suppressed_predictions": 3613
+      }
+    ]
+  },
+  "always_normal_baseline": {
+    "support": 3728,
+    "accuracy": 0.6558,
+    "macro_f1": 0.1584,
+    "macro_f1_all_classes": 0.1584,
+    "macro_f1_present_classes": 0.1584,
+    "class_names": [
+      "NORMAL",
+      "HARD_BRAKE",
+      "RAPID_ACCELERATION",
+      "AGGRESSIVE_TURN",
+      "AGGRESSIVE_LANE_CHANGE"
+    ],
+    "confusion_matrix": [
+      [
+        2445,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        150,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        217,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        481,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        435,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "per_class": {
+      "NORMAL": {
+        "support": 2445,
+        "precision": 0.6558,
+        "recall": 1.0,
+        "f1": 0.7922
+      },
+      "HARD_BRAKE": {
+        "support": 150,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "RAPID_ACCELERATION": {
+        "support": 217,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "AGGRESSIVE_TURN": {
+        "support": 481,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "AGGRESSIVE_LANE_CHANGE": {
+        "support": 435,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "argmax_false_positive_windows": 0,
+    "false_positive_windows_at_default_threshold": 0,
+    "normal_labeled_decision_exposure_seconds": 2445.0,
+    "false_positive_windows_per_normal_labeled_decision_minute_argmax": 0.0,
+    "false_positive_windows_per_normal_labeled_decision_minute_at_default_threshold": 0.0,
+    "default_threshold": 0.55,
+    "default_threshold_alert_episodes": {
+      "total": 0,
+      "unmatched_normal": 0,
+      "overlaps_labeled_event": 0,
+      "merge_gap_seconds": 3.0,
+      "interpretation": "Always-NORMAL creates no alert episodes; it misses every non-NORMAL labelled window."
+    }
+  },
+  "threshold_policy": {
+    "application_default": 0.55,
+    "new_threshold_selected": false,
+    "interpretation": "The .55 application default is retained. This grid is descriptive sensitivity on the outer-fold test predictions, not an independent calibration set; no value is promoted as a validated optimum.",
+    "false_positive_denominator": "NORMAL-labelled decision-time exposure, computed as NORMAL decision windows multiplied by the one-second stride; overlapping five-second windows are not counted as five seconds each."
+  },
+  "limitations": [
+    "Predictions are fold-specific, but model-family selection was previously guided by the same three public trips.",
+    "Threshold changes are evaluated on the same outer-fold test windows and are not independent tuning results.",
+    "Merged alert episodes are an offline grouping convention, not a measured driver-event count."
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "status": "synthetic_audio_contract_only",
+  "microphone_used": false,
+  "raw_audio_saved": false,
+  "transcript_text_saved": false,
+  "sample_rate": 16000,
+  "quality": {
+    "silence": {
+      "duration_seconds": 2.0,
+      "rms_dbfs": -160.0,
+      "peak_dbfs": -160.0,
+      "clipping_detected": false
+    },
+    "speech_like": {
+      "duration_seconds": 2.75,
+      "rms_dbfs": -33.42,
+      "peak_dbfs": -26.99,
+      "clipping_detected": false
+    }
+  },
+  "segmentation": {
+    "silence": {
+      "segment_count": 0,
+      "segment_durations_seconds": [],
+      "dropped_short_segments": 0
+    },
+    "speech_like": {
+      "segment_count": 1,
+      "segment_durations_seconds": [
+        2.65
+      ],
+      "dropped_short_segments": 0
+    }
+  },
+  "loudness": {
+    "normal_reference_dbfs": -30.0,
+    "level_labels": {
+      "low": "LOW",
+      "normal": "NORMAL",
+      "high": "HIGH",
+      "very_high": "VERY HIGH"
+    }
+  },
+  "yamnet_mapping": {
+    "mapped_categories": {
+      "horn": 0.77,
+      "raised_voice": 0.82,
+      "speech": 0.91
+    },
+    "speech_active_after_one_window": false,
+    "raised_voice_active_after_one_window": false
+  },
+  "safety_rule_cases": [
+    {
+      "id": "neutral_english",
+      "expected_flagged": false,
+      "predicted_flagged": false,
+      "expected_categories": [],
+      "predicted_categories": []
+    },
+    {
+      "id": "english_profanity",
+      "expected_flagged": true,
+      "predicted_flagged": true,
+      "expected_categories": [
+        "PROFANITY"
+      ],
+      "predicted_categories": [
+        "PROFANITY"
+      ]
+    },
+    {
+      "id": "arabic_threat",
+      "expected_flagged": true,
+      "predicted_flagged": true,
+      "expected_categories": [
+        "THREAT"
+      ],
+      "predicted_categories": [
+        "THREAT"
+      ]
+    },
+    {
+      "id": "arabic_harassment",
+      "expected_flagged": true,
+      "predicted_flagged": true,
+      "expected_categories": [
+        "HARASSMENT"
+      ],
+      "predicted_categories": [
+        "HARASSMENT"
+      ]
+    }
+  ],
+  "limitations": [
+    "Synthetic signals verify contracts only and do not measure microphone acoustics, ASR WER/CER, or real speech recognition.",
+    "Loudness is RMS/dBFS volume relative to calibration, not emotion or aggression.",
+    "The report stores fixture IDs and categories, never the controlled text or waveform samples."
+  ]
+}

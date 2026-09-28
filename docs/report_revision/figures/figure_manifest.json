@@ -1,0 +1,29 @@
+{
+  "status": "report_evaluation_figures",
+  "source_reports": [
+    "docs/evaluation/results/continuous_telemetry_crossvalidated.json",
+    "docs/evaluation/results/threshold_sensitivity_crossvalidated.json",
+    "docs/evaluation/results/fusion_sensitivity_evaluation.json",
+    "docs/evaluation/results/combined_resource_stability_900_repeat2.json",
+    "docs/evaluation/results/combined_resource_stability_summary.json",
+    "docs/evaluation/results/visual_logic_evaluation.json",
+    "docs/evaluation/results/audio_protocol_evaluation.json"
+  ],
+  "figures": [
+    "docs/report_revision/figures/telemetry_confusion_matrix.png",
+    "docs/report_revision/figures/telemetry_per_class_metrics.png",
+    "docs/report_revision/figures/telemetry_model_comparison.png",
+    "docs/report_revision/figures/fusion_weight_sensitivity.png",
+    "docs/report_revision/figures/fusion_baseline_ablation.png",
+    "docs/report_revision/figures/combined_resource_summary.png",
+    "docs/report_revision/figures/telemetry_threshold_sensitivity.png"
+  ],
+  "visual_contract_status": "synthetic_logic_contract_only",
+  "audio_contract_status": "synthetic_audio_contract_only",
+  "limitations": [
+    "Telemetry labels are public annotation-overlap labels; no live phone signal was used.",
+    "Telemetry fold heads exclude each test trip, but earlier model-family selection used the same three trips.",
+    "Visual and audio contract reports are synthetic and must not be presented as real-world accuracy.",
+    "Resource values describe one bounded local run and are not universal hardware guarantees."
+  ]
+}

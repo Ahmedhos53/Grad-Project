@@ -1,0 +1,181 @@
+{
+  "status": "bounded_dashboard_resource_measurement",
+  "frames_requested": 900,
+  "audio_enabled": true,
+  "telemetry_enabled": true,
+  "telemetry_model": "primus",
+  "telemetry_trip": 1,
+  "telemetry_speed": 10.0,
+  "whisper_model": "large-v3-turbo",
+  "automatic_screenshots_enabled": false,
+  "transcript_recording_enabled": false,
+  "exit_code": 0,
+  "wall_time_seconds": 92.079,
+  "frames_completed": 900,
+  "effective_fps": 9.774,
+  "samples": 65,
+  "cpu_percent_mean": 332.18,
+  "cpu_percent_max": 501.03,
+  "rss_mb_mean": 1115.1,
+  "rss_mb_max": 1794.84,
+  "threads_max": 136,
+  "gpu": {
+    "available": true,
+    "name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+    "samples": 65,
+    "utilization_percent_mean": 20.18,
+    "utilization_percent_max": 100.0,
+    "memory_used_mb_mean": 1245.02,
+    "memory_used_mb_max": 2387.0,
+    "memory_total_mb": 6144.0
+  },
+  "runtime_metrics": {
+    "status": "aggregate_runtime_metrics",
+    "media_saved": false,
+    "transcript_text_saved": false,
+    "stages": {
+      "dashboard.frame_total": {
+        "count": 900,
+        "mean_ms": 75.6564,
+        "p50_ms": 33.1443,
+        "p95_ms": 183.2217,
+        "max_ms": 707.9776
+      },
+      "dashboard.render": {
+        "count": 900,
+        "mean_ms": 8.0825,
+        "p50_ms": 7.4237,
+        "p95_ms": 12.6255,
+        "max_ms": 47.819
+      },
+      "fusion.risk_score": {
+        "count": 900,
+        "mean_ms": 0.0056,
+        "p50_ms": 0.0054,
+        "p95_ms": 0.0076,
+        "max_ms": 0.0523
+      },
+      "visual.action_rules": {
+        "count": 900,
+        "mean_ms": 0.0058,
+        "p50_ms": 0.0048,
+        "p95_ms": 0.008,
+        "max_ms": 0.4992
+      },
+      "visual.face_and_eyes": {
+        "count": 301,
+        "mean_ms": 120.8165,
+        "p50_ms": 119.2067,
+        "p95_ms": 138.3945,
+        "max_ms": 650.2167
+      },
+      "visual.hands": {
+        "count": 451,
+        "mean_ms": 21.224,
+        "p50_ms": 21.8507,
+        "p95_ms": 30.5233,
+        "max_ms": 88.4019
+      },
+      "visual.object_render": {
+        "count": 900,
+        "mean_ms": 0.0016,
+        "p50_ms": 0.0015,
+        "p95_ms": 0.0023,
+        "max_ms": 0.0147
+      },
+      "visual.pose": {
+        "count": 301,
+        "mean_ms": 21.5806,
+        "p50_ms": 20.9231,
+        "p95_ms": 25.7315,
+        "max_ms": 98.6182
+      },
+      "visual.safe_zone": {
+        "count": 900,
+        "mean_ms": 0.0283,
+        "p50_ms": 0.0286,
+        "p95_ms": 0.0401,
+        "max_ms": 0.2723
+      },
+      "visual.yolo_full": {
+        "count": 38,
+        "mean_ms": 32.3102,
+        "p50_ms": 27.17,
+        "p95_ms": 50.0039,
+        "max_ms": 97.7658
+      },
+      "visual.yolo_job": {
+        "count": 112,
+        "mean_ms": 39.8571,
+        "p50_ms": 36.7096,
+        "p95_ms": 66.4089,
+        "max_ms": 116.1528
+      },
+      "visual.yolo_regions": {
+        "count": 112,
+        "mean_ms": 28.8723,
+        "p50_ms": 27.1625,
+        "p95_ms": 44.6129,
+        "max_ms": 73.9145
+      }
+    },
+    "counters": {
+      "dashboard.alerts_rendered": 182,
+      "dashboard.frame_limit_reached": 1,
+      "dashboard.frames_completed": 900,
+      "visual.yolo.completed_jobs": 112,
+      "visual.yolo.pending_frames": 72,
+      "visual.yolo.submitted_jobs": 112
+    },
+    "gauges": {
+      "audio.capture.input_callbacks": 750,
+      "audio.capture.max_queue_depth": 1,
+      "audio.capture.queue_depth": 0,
+      "audio.capture.queue_drops": 0,
+      "audio.transcription.completed_count": 8,
+      "audio.transcription.inference_max_ms": 6540.0133,
+      "audio.transcription.inference_mean_ms": 2248.1832,
+      "audio.transcription.max_queue_depth": 1,
+      "audio.transcription.queue_depth": 0,
+      "audio.transcription.queue_drops": 0,
+      "audio.transcription.queued_count": 8,
+      "audio.yamnet.inference_count": 152,
+      "audio.yamnet.inference_max_ms": 5.6268,
+      "audio.yamnet.inference_mean_ms": 2.5249,
+      "audio.yamnet.max_queue_depth": 1,
+      "audio.yamnet.queue_depth": 0,
+      "audio.yamnet.queue_drops": 0,
+      "dashboard.frames_completed": 900,
+      "dashboard.max_frames": 900,
+      "telemetry.events_processed": 39,
+      "telemetry.events_total": 73,
+      "visual.yolo_pending": false
+    },
+    "limitations": [
+      "Metrics are collected only when an explicit output path is configured.",
+      "Values are aggregate timings/counters and contain no camera, audio, transcript, or sensor arrays."
+    ],
+    "context": {
+      "frames_completed": 900,
+      "audio_enabled": true,
+      "telemetry_enabled": true,
+      "auto_screenshots_enabled": false,
+      "transcript_recording_enabled": false
+    }
+  },
+  "lifecycle": {
+    "audio_started": true,
+    "telemetry_started": true,
+    "bounded_run_started": true,
+    "bounded_run_stopped": true,
+    "clean_interrupt_message": false,
+    "traceback_present": false
+  },
+  "limitations": [
+    "Resource samples cover only this bounded local run and are hardware/configuration dependent.",
+    "The runner records aggregate process statistics, not media or transcript content.",
+    "Effective FPS includes model startup and display-loop overhead; it is not a per-model latency measurement.",
+    "Per-stage/model and queue metrics are present only when the dashboard writes its explicit runtime metrics file.",
+    "An exit code of zero is authoritative only for bounded runs; live interactive use remains unbounded."
+  ]
+}

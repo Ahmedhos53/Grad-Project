@@ -1,0 +1,48 @@
+# Local environments and Python caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Input data and generated results
+/data/*
+!/data/audio/
+/data/audio/*
+!/data/audio/safety_rules.json
+/outputs/
+/output/
+/tmp/
+
+# Model weights, exported classifiers, and GPU runtime libraries
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.safetensors
+*.tflite
+*.joblib
+/models/runtime/
+*.dll
+
+# Recordings and private evaluation inputs
+*.wav
+*.mp3
+*.flac
+*.mp4
+*.avi
+*.mov
+*.mkv
+manifest.csv
+
+# Local configuration
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+~$*

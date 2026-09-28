@@ -1,0 +1,259 @@
+{
+  "status": "repeated_bounded_dashboard_stability_summary",
+  "run_count": 3,
+  "run_files": [
+    "D:\\University\\Year 3\\Year 3 Semester 2 (Final Semester)\\Graduation Project\\CabInspector\\outputs\\evaluation\\combined_resource_stability_900.json",
+    "D:\\University\\Year 3\\Year 3 Semester 2 (Final Semester)\\Graduation Project\\CabInspector\\outputs\\evaluation\\combined_resource_stability_900_repeat2.json",
+    "D:\\University\\Year 3\\Year 3 Semester 2 (Final Semester)\\Graduation Project\\CabInspector\\outputs\\evaluation\\combined_resource_stability_900_repeat3.json"
+  ],
+  "frames_requested_per_run": [
+    900,
+    900,
+    900
+  ],
+  "clean_runs": 3,
+  "all_runs_clean": true,
+  "audio_and_telemetry_started_all_runs": true,
+  "runtime_metrics_present_all_runs": true,
+  "runtime_metrics_no_media_all_runs": true,
+  "runtime_stage_names": [
+    "dashboard.frame_total",
+    "dashboard.render",
+    "fusion.risk_score",
+    "visual.action_rules",
+    "visual.face_and_eyes",
+    "visual.hands",
+    "visual.object_render",
+    "visual.pose",
+    "visual.safe_zone",
+    "visual.yolo_full",
+    "visual.yolo_job",
+    "visual.yolo_regions"
+  ],
+  "runtime_queue_drops_per_run": [
+    0,
+    0,
+    0
+  ],
+  "runtime_stage_mean_ms": {
+    "dashboard.frame_total": {
+      "min": 71.137,
+      "median": 75.656,
+      "max": 111.776
+    },
+    "dashboard.render": {
+      "min": 7.678,
+      "median": 7.722,
+      "max": 8.082
+    },
+    "fusion.risk_score": {
+      "min": 0.006,
+      "median": 0.006,
+      "max": 0.006
+    },
+    "visual.action_rules": {
+      "min": 0.005,
+      "median": 0.005,
+      "max": 0.006
+    },
+    "visual.face_and_eyes": {
+      "min": 120.817,
+      "median": 122.737,
+      "max": 123.579
+    },
+    "visual.hands": {
+      "min": 20.646,
+      "median": 21.224,
+      "max": 23.49
+    },
+    "visual.object_render": {
+      "min": 0.002,
+      "median": 0.002,
+      "max": 0.002
+    },
+    "visual.pose": {
+      "min": 21.581,
+      "median": 21.622,
+      "max": 21.784
+    },
+    "visual.safe_zone": {
+      "min": 0.028,
+      "median": 0.028,
+      "max": 0.029
+    },
+    "visual.yolo_full": {
+      "min": 30.126,
+      "median": 32.31,
+      "max": 32.705
+    },
+    "visual.yolo_job": {
+      "min": 38.624,
+      "median": 38.856,
+      "max": 39.857
+    },
+    "visual.yolo_regions": {
+      "min": 27.506,
+      "median": 28.612,
+      "max": 28.872
+    }
+  },
+  "runtime_stage_p95_ms": {
+    "dashboard.frame_total": {
+      "min": 179.845,
+      "median": 183.222,
+      "max": 425.481
+    },
+    "dashboard.render": {
+      "min": 10.551,
+      "median": 11.899,
+      "max": 12.626
+    },
+    "fusion.risk_score": {
+      "min": 0.007,
+      "median": 0.008,
+      "max": 0.009
+    },
+    "visual.action_rules": {
+      "min": 0.007,
+      "median": 0.008,
+      "max": 0.008
+    },
+    "visual.face_and_eyes": {
+      "min": 136.93,
+      "median": 138.394,
+      "max": 139.88
+    },
+    "visual.hands": {
+      "min": 26.611,
+      "median": 29.014,
+      "max": 30.523
+    },
+    "visual.object_render": {
+      "min": 0.002,
+      "median": 0.003,
+      "max": 0.003
+    },
+    "visual.pose": {
+      "min": 25.002,
+      "median": 25.494,
+      "max": 25.732
+    },
+    "visual.safe_zone": {
+      "min": 0.039,
+      "median": 0.04,
+      "max": 0.041
+    },
+    "visual.yolo_full": {
+      "min": 36.537,
+      "median": 44.415,
+      "max": 50.004
+    },
+    "visual.yolo_job": {
+      "min": 61.114,
+      "median": 64.064,
+      "max": 66.409
+    },
+    "visual.yolo_regions": {
+      "min": 39.025,
+      "median": 41.074,
+      "max": 44.613
+    }
+  },
+  "runtime_yamnet_inference_mean_ms": {
+    "min": 2.525,
+    "median": 2.596,
+    "max": 2.835
+  },
+  "runtime_yamnet_inference_max_ms": {
+    "min": 5.627,
+    "median": 8.887,
+    "max": 9.72
+  },
+  "runtime_whisper_completions_per_run": [
+    0,
+    8,
+    0
+  ],
+  "runtime_whisper_inference_mean_ms": {
+    "min": 0.0,
+    "median": 0.0,
+    "max": 2248.183
+  },
+  "runtime_whisper_inference_max_ms": {
+    "min": 0.0,
+    "median": 0.0,
+    "max": 6540.013
+  },
+  "wall_time_seconds": {
+    "min": 88.709,
+    "median": 92.079,
+    "max": 124.839
+  },
+  "effective_fps": {
+    "min": 7.209,
+    "median": 9.774,
+    "max": 10.146
+  },
+  "rss_mean_mb": {
+    "min": 726.55,
+    "median": 748.78,
+    "max": 1115.1
+  },
+  "rss_peak_mb": {
+    "min": 804.25,
+    "median": 805.39,
+    "max": 1794.84
+  },
+  "cpu_mean_percent": {
+    "min": 213.44,
+    "median": 306.01,
+    "max": 332.18
+  },
+  "cpu_peak_percent": {
+    "min": 329.6,
+    "median": 405.52,
+    "max": 501.03
+  },
+  "threads_peak": {
+    "min": 134.0,
+    "median": 135.0,
+    "max": 136.0
+  },
+  "gpu": {
+    "available_all_runs": true,
+    "utilization_mean_percent": {
+      "min": 0.0,
+      "median": 0.0,
+      "max": 20.18
+    },
+    "utilization_peak_percent": {
+      "min": 0.0,
+      "median": 0.0,
+      "max": 100.0
+    },
+    "vram_peak_mb": {
+      "min": 0.0,
+      "median": 0.0,
+      "max": 2387.0
+    },
+    "memory_total_mb": [
+      6144.0,
+      6144.0,
+      6144.0
+    ]
+  },
+  "privacy_flags": {
+    "automatic_screenshots_enabled": false,
+    "transcript_recording_enabled": false,
+    "raw_media_saved": false
+  },
+  "thermal_data_available": false,
+  "per_model_latency_instrumented": true,
+  "queue_or_drop_counts_instrumented": true,
+  "limitations": [
+    "Runs were sequential bounded observations on one laptop, not a thermal or multi-hardware study.",
+    "Variation includes model startup, cache, scheduler, and GPU sampling effects.",
+    "Runtime metrics cover dashboard stages, YOLO scheduling, audio queues, YAMNet, and observed Whisper work; they do not cover every internal or telemetry-startup path.",
+    "Whisper latency is zero in runs with no completed utterance, so it must be interpreted with its completion counts."
+  ]
+}

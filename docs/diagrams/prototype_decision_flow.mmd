@@ -1,0 +1,21 @@
+flowchart LR
+    M[Model or sensor output] --> C[Context and validity checks]
+    C --> SM[Persistence / confidence smoothing]
+    SM --> E[Source-labelled event state]
+    E --> R[Bounded risk contribution]
+    R --> UI[Dashboard alert and explanation]
+    R --> LOG[Structured event log]
+
+    M -->|audio speech| G[In-memory utterance gate]
+    G -->|explicit opt-in only| TS[Transcript store]
+    G -->|default| DROP[Raw audio discarded]
+    TS --> EXP[Readable transcript export]
+
+    E -->|telemetry replay| NOTE[Prediction only;<br/>source labels hidden]
+
+    classDef process fill:#EAF3FF,stroke:#2F80ED,color:#172B4D;
+    classDef privacy fill:#EDF9F0,stroke:#27AE60,color:#173B2C;
+    classDef output fill:#FFF4D9,stroke:#F2994A,color:#5E3A00;
+    class M,C,SM,E,R process;
+    class G,TS,DROP,EXP,NOTE privacy;
+    class UI,LOG output;

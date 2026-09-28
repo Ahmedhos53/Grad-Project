@@ -1,0 +1,18 @@
+{
+  "profanity": {
+    "en": ["fuck", "fucking", "shit", "bitch", "asshole", "bastard"],
+    "ar": ["كلب", "حمار", "زبالة"]
+  },
+  "threat": {
+    "en": ["i will kill you", "i'll kill you", "i will hurt you", "i'll hurt you", "i will beat you", "i'll beat you"],
+    "ar": ["ساقتلك", "هقتلك", "هاقتلك", "هاذيك", "هاضربك"]
+  },
+  "harassment": {
+    "en": ["you are stupid", "you are worthless", "i hate you", "shut up", "you idiot"],
+    "ar": ["غبي", "انت غبي", "انت حمار", "اكرهك", "اخرس"]
+  },
+  "sexual_language": {
+    "en": ["sexual relationship", "nude", "naked", "have sex"],
+    "ar": ["علاقه جنسيه", "عاري", "جنس"]
+  }
+}

@@ -1,0 +1,8 @@
+flowchart LR
+    A[Cabin Audio panel<br/>input, language, voice, safety, transcript] --- C[Live camera view<br/>landmarks, safe zone, objects] --- R[Driver Monitor panel<br/>camera status, telemetry, risk, alerts, controls]
+    classDef audio fill:#E9F2FF,stroke:#2F80ED,color:#172B4D;
+    classDef camera fill:#1F1B18,stroke:#8B6B5A,color:#FFFFFF;
+    classDef risk fill:#FFF4D9,stroke:#F2994A,color:#5E3A00;
+    class A audio;
+    class C camera;
+    class R risk;
